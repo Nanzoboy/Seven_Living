@@ -29,6 +29,7 @@ hr{
 }
 .contact{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     max-width: 50%;
     margin: 0 auto;
@@ -62,19 +63,24 @@ p{
 }
 .input-row{
     display: flex;
-    gap: 10px;
+    gap: 28px;
+    margin-bottom: 22px;
 }
 input[type="text"],
-input[type="email"],
-textarea{
-    width: 98.5%;
+input[type="email"]{
+    width: calc(50% - 14px);
     padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
+    border-radius: 7px;
     border: 1px solid black;
+    box-sizing: border-box;
 }
 textarea{
-    height: 100px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 120px;
 }
 
 footer{
