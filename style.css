@@ -63,19 +63,19 @@ p{
 }
 .input-row{
     display: flex;
-    gap: 28px;
+    gap: 10px;
     margin-bottom: 22px;
 }
 input[type="text"],
 input[type="email"]{
-    width: calc(50% - 14px);
+    width: 100%;
     padding: 10px;
     border-radius: 7px;
     border: 1px solid black;
     box-sizing: border-box;
 }
 textarea{
-    width: 100%;
+    width: 98.5%;
     padding: 10px;
     border-radius: 7px;
     border: 1px solid black;
@@ -90,4 +90,30 @@ footer{
     padding-bottom: 40px;
     padding: 50px 30px 40px 30px;
     justify-content: space-between;
+}
+
+@media (max-width:1165px) {
+    .contact{
+        display: block;
+        text-align: center;
+    }
+}
+@media (max-width:605px) {
+    .contact{
+    font-size: 12px;
+    }
+    .input-row{
+        display: block;
+    }
+    input[type="text"]{
+        margin-bottom: 20px;
+    }
+    .message{
+        font-size: 14px;
+    }
+    textarea{
+        width: 100%;
+    }
+}
+@media (max-width:480px) {
 }
