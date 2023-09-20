@@ -100,10 +100,8 @@ footer{
 }
 @media (max-width:605px) {
     .contact{
-    font-size: 12px;
+        font-size: 12px;
     }
-    .number{
-        text-decorarion: none;
     .input-row{
         display: block;
     }
