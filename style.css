@@ -102,6 +102,7 @@ footer{
 @media (max-width:605px) {
     .contact{
     font-size: 12px;
+    text-decoration: none;
     }
     .input-row{
         display: block;
